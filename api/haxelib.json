@@ -1,0 +1,10 @@
+{
+  "name": "MEImGuiApi",
+  "url" : "https://github.com/dotryen/MEImGui",
+  "license": "MIT",
+  "tags": ["engine", "framework", "api"],
+  "description": "MANIFOLD_ENGINE ImGui :: API",
+  "version": "1.0.0",
+  "releasenote": "Initial release, everything is working correctly.",
+  "contributors": ["dotRYEN"]
+}

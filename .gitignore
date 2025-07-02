@@ -1,0 +1,9 @@
+# DEVELOPMENT
+plugin/vendor/MECore
+
+# CMAKE
+build/
+
+# CLION
+.idea
+cmake-build-*

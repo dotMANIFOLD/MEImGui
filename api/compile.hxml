@@ -1,0 +1,8 @@
+# this file exists purely for editing reasons. ignore.
+
+--class-path .
+
+--library MECoreApi
+
+--dce no
+--hl code.hl
