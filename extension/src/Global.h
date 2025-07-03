@@ -4,7 +4,7 @@ extern "C" {
     #include <hl.h>
 }
 #include <MECore/MECore.h>
-#include <imgui.h>
+#include <MEImGui/imgui.h>
 
 #define HL_NAME(n) MEImGui_##n
 

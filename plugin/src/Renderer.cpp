@@ -35,8 +35,8 @@ namespace ME::imgui {
         blendState.targets[0].setBlendEnable(true)
             .setSrcBlend(nvrhi::BlendFactor::SrcAlpha)
             .setDestBlend(nvrhi::BlendFactor::InvSrcAlpha)
-            .setSrcBlendAlpha(nvrhi::BlendFactor::InvSrcAlpha)
-            .setDestBlendAlpha(nvrhi::BlendFactor::Zero);
+            .setSrcBlendAlpha(nvrhi::BlendFactor::SrcAlpha)
+            .setDestBlendAlpha(nvrhi::BlendFactor::InvSrcAlpha);
 
         auto rasterState = nvrhi::RasterState()
             .setFillSolid()
